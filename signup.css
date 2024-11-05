@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: geist mono;
+    font-size: larger;
+    background-image: url(images/gym_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    outline: none;
+}
+.loginContainer{
+    position: absolute;
+    top: 100px;
+    right: 280px;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+}
+.loginContainer h1{
+    text-align: center;
+}
+.info{
+    cursor: pointer;
+    margin: 10px;
+    font-family: geist Mono;
+    font-size: 20px;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black ;
+}
+
+.submit
+{
+    background: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.7s;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    overflow: hidden;
+    color: #000000;
+    border-style: solid;
+    border-color: black;
+    font-family: geist mono;
+}
+.submit:hover
+{
+    color:white;
+    background-color: black;
+    font-weight: 600;
+}
+.imageBody{
+    height: 500px;
+}
+.information{
+    margin-left: 18%;
+}
+.user
+{
+    position: relative;
+    height: 37px;
+    top: 12px;
+    left: -63px;
+}
+.mail{
+    position: relative;
+    height: 39px;
+    top:12.9px;
+    left:-65px;
+}
+.icon{
+    cursor: pointer;
+}
+.show{
+    height: 33px;
+    top:360px;
+    left:363px;
+}
+.hide{
+    height: 33px;
+    top:360px;
+    left:363px;
+}
+.buttonIconPassword{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top:10px;
+    left:-70px;
+}
+.buttonConfirmIconPassword{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top:10px;
+    left:-70px;
+}
+footer {
+    background-color: black;
+    line-height: 10px;
+    height: 40px;
+    color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    margin-top: 4.7%;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #4CAF50;
+}
+.quote
+{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 60px;
+    line-height: 80px;
+}
+.quoteText
+{
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.companyName
+{
+    margin-left: 20px;
+}
+.SignIn
+{
+    margin-top: 60px;
+}
+.SignIn a
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.info span
+{
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+    margin-left: 3px;
+}
+.info:hover span
+{
+    display: inline-block;
+    width: 30px;
+    overflow: hidden;
+}
+.submit
+{
+    display: flex;
+}
+.submit:hover
+{
+    left: 60px;
+}
+
+

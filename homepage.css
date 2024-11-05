@@ -1,0 +1,137 @@
+*{
+    font-family: geist mono;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+.flex-items {
+    display: flex;
+    margin-left: 0px;
+}
+
+.flex-items a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.flex-items a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.15);
+}
+
+.flex-items select {
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+}
+
+.flex-items select option {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+.loginButton {
+    position: absolute;
+    top: -7px;
+    right: 100px;
+}
+
+.loginButton button {
+    margin-top: 26px;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.loginButton button:hover {
+    background-color: white;
+    color: black;
+}
+
+.heading h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 70px;
+}
+.heading {
+    text-align: center;
+}
+.headerTop{
+    margin-top: 20px;
+}
+.modeShift{
+    width: 200px;
+    position: absolute;
+    right: 200px;
+    top:15px;
+    height: 28px;
+    border: none;
+    text-align: center
+    }
+.dark-mode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+.dark-mode a
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.dark-mode button
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.check_box{
+    display: none;
+  }
+  #text1{
+    width: 100px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    position: absolute;
+    top:0px;
+    right: 100px;
+
+  }
+  button:hover{
+    cursor: pointer;
+  }
+.companyName{
+    color: rgb(24, 119, 242);
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+#change{
+    height: 25px;
+    padding: 8px;
+}
+.currentSelectedOption{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+::-webkit-scrollbar{
+    background-color:black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}

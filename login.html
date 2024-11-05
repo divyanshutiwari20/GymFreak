@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1 class="companyName">GymFreak</h1>
+    <p class="quote">The <span class="quoteText"> Real Workout</span> <br> starts when <br>you want to <br> stop.</p>
+    <div class="loginContainer">
+        <h1>
+            Login
+        </h1>
+        <div class="information">
+            <br>
+            <input class="info username" type="text" required placeholder="Username">
+            <img class="icon user" src="icons/user.png" alt="">
+            <br>
+            <input class="info email" id="input1" required type="text" placeholder="Password">
+            <button class="buttonIconPassword" onclick="toggle()"><img id="images1" class="icon show"
+                    src="icons/show.png" alt=""></button>
+            <br>
+
+            <button class="info submit" onclick="location.href='homepage.html'" type="submit">Login</button>
+            <div class="SignIn"><p>Don't have a account?<a href="signup.html">Create account</a></p></div>
+        </div>
+    </div>
+    <script>
+        function toggle() {
+            var x = document.getElementById("input1");
+            var y = document.getElementById("input2");
+            if (x.type === "password") {
+                x.type = "text";
+                y.type = "text";
+            } else {
+                x.type = "password";
+                y.type = "password";
+            }
+        }
+        const img = document.getElementById("images1");
+        const img2 = document.getElementById("images2");
+        let check = true;
+        img.addEventListener('click', function () {
+            check = !check;
+            if (check) {
+                img.src = 'icons\\show.png';
+                img2.src = 'icons\\show.png';
+            } else {
+                img.src = 'icons\\hidden.png';
+                img2.src = 'icons\\hidden.png';
+            }
+        })
+        img2.addEventListener('click', function () {
+            check = !check;
+            if (check) {
+                img.src = 'icons\\show.png';
+                img2.src = 'icons\\show.png';
+            } else {
+                img.src = 'icons\\hidden.png';
+                img2.src = 'icons\\hidden.png';
+            }
+        })
+    </script>
+
+    <footer>
+        <p>&copy; 2024 GymFreak. All rights reserved.</p>
+        <ul class="policy-container">
+            <li class="policy-item"><a href="privacyPolicy.html" class="policy-text">Privacy Policy</a></li>
+            <li class="policy-item"><a href="termsOfUse.html" class="policy-text">Terms of Use</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

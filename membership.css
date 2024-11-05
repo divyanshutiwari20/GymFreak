@@ -1,0 +1,188 @@
+*{
+    font-family: geist mono;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 2000px;
+}
+.flex-items {
+    display: flex;
+    margin-left: 0px;
+}
+
+.flex-items a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.flex-items a:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex-items select {
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+}
+
+.flex-items select option {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+.loginButton {
+    position: absolute;
+    top: -7px;
+    right: 100px;
+}
+
+.loginButton button {
+    margin-top: 26px;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.loginButton button:hover {
+    background-color: white;
+    color: black;
+}
+#change{
+    height: 25px;
+    padding: 8px;
+}
+.companyName{
+    color: rgb(24, 119, 242);
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+.headerTop{
+    margin-top: 20px;
+}
+::-webkit-scrollbar{
+    width: 1px;
+    background-color:black;
+}
+::-webkit-scrollbar:hover{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    background-color: white;
+}
+.currentSelectedOption{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+.planPrice{
+    margin-left: 50px;
+    color: white;
+}
+.planHeading,.planPrice{
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.planContainer ul{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+.planHeading{
+    margin-right: 0;
+}
+.subHeading{
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.headingContainer{
+    background-color: rgb(0, 0, 0);
+    width: 490px;
+    margin-left: -20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.planContainer:hover{
+    /* transform: scale(1.07); */
+    background-color: rgb(0, 0, 0);
+    color: rgb(29, 161, 242);
+    font-weight: 800;
+    outline: none;
+    border-width: 2px;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+}
+main{
+    display: flex;
+    margin-top: 100px;
+}
+.basicScroll{
+    background-color: red;height: 50px;
+    position: absolute;
+    top: 1800px;
+    left: 50%;
+}
+.buy
+{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+.b{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.s{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.p{
+    margin-left: 35%;
+}
+
+#premium{
+    margin-top: -2px;
+}
+.planContainer{
+    margin-left: 100px;
+    background-color: gray;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 550px;
+    transition: 0.5s;
+    border-radius: 20px;
+    border: 1px white solid;
+}
+.planContainer:hover .buy{
+    content: "";
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    
+}

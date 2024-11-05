@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link rel="stylesheet" href="membership.css">
+</head>
+<body>
+    <header>
+        <div class="headerTop">
+            <div class="flex-items">
+                <h1 class="companyName"><u>GymFreak</u></h1>
+                <a id="change" style="margin-left: 20px;" href="homepage.html" >Home</a>
+                <a id="change" href=""><span class="currentSelectedOption">  Membership <span></a>
+                <a id="change" href="shop.html">Shop</a>
+                
+            </div>
+        </div>
+        <div class="loginButton">
+            <button onclick="location.href='signup.html'">SIGN UP</button>
+            <button onclick="location.href='login.html'">LOG IN</button>
+        </div>
+    </header>
+    <main>
+        <div class="planContainer" id="basic">
+            <div class="headingContainer">
+                <h2 class="planHeading" >Basic Plan</h2>
+                <p class="planPrice">₹1,499/month</p>
+            </div>
+
+            <p class="subHeading">Features</p>
+            <ul>
+                <li>Access to gym facilities during off-peak hours (9 AM - 5 PM)</li>
+                <li>Free consultation with a fitness trainer once a month</li>
+                <li>Access to cardio equipment, weight machines, and free weights</li>
+                <li>Locker room access</li>
+                <li>One group fitness class per month</li>
+                <li>No commitment, cancel anytime</li>
+            </ul>
+            <button class="buy ">Buy</button>
+        </div>
+        <div class="planContainer " id="standard">
+            <div class="headingContainer">
+                <h2 class="planHeading" >Standard Plan</h2><p class="planPrice">₹2,999/month</p>
+            </div>
+            <p class="subHeading">Features</p>
+            <ul>
+                <li>Unlimited gym access (open hours)</li>
+                <li>Weekly group fitness classes (Zumba, Yoga, Pilates, etc.)</li>
+                <li>Free consultation with a fitness trainer twice a month</li>
+                <li>Personal locker</li>
+                <li>Access to sauna and steam room</li>
+                <li>10% discount on protein supplements and gym apparel</li>
+            </ul>
+            <button class="buy s">Buy</button>
+        </div>
+        <div class="planContainer " id="premium">
+            <div class="headingContainer">
+                <h2 class="planHeading" >Premium Plan</h2><p class="planPrice">₹4,999/month</p>
+            </div>
+            <p class="subHeading">Features</p>
+            <ul>
+                <li>24/7 gym access</li>
+                <li>Free personal training sessions twice a month</li>
+                <li>Unlimited group fitness classes</li>
+                <li>VIP locker and premium towel service</li>
+                <li>Access to all gym amenities including sauna, steam room, and swimming pool</li>
+                <li>20% discount on protein supplements, gym apparel, and café items</li>
+            </ul>
+            <button class="buy p">Buy</button>
+        </div>
+        <br>
+    </main>
+   
+</body>
+</html>

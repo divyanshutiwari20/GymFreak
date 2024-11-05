@@ -1,0 +1,207 @@
+html {
+    scroll-behavior:smooth;
+}
+body{
+    background-color: black;
+    font-family: geist mono;
+    color: white;
+}
+*{
+    outline: none;
+    font-family: geist mono;
+}
+.flex-items {
+    display: flex;
+    margin-left: 0px;
+}
+
+.flex-items a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.flex-items a:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex-items select {
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+}
+
+.flex-items select option {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+.loginButton {
+    position: absolute;
+    top: -7px;
+    right: 100px;
+}
+
+.loginButton button {
+    margin-top: 26px;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.loginButton button:hover {
+    background-color: white;
+    color: black;
+}
+
+.heading h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 70px;
+}
+.heading {
+    text-align: center;
+}
+.headerTop{
+    margin-top: 20px;
+}
+.companyName{
+    color: rgb(24, 119, 242);
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+#change{
+    height: 25px;
+    padding: 8px;
+}
+.currentSelectedOption
+{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+.icon{
+    display: block;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.shirt{
+    margin-top: 200px;
+}
+.shirt:hover{
+    cursor: pointer;
+}
+.pant:hover{
+    cursor: pointer;
+}
+.accessories:hover{
+    cursor: pointer;
+}
+.item{
+    background: rgb(255, 255, 255);
+    color: black;
+    width: 280px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+}
+.item1-image{
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.info,.item1-link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.referButton,.item1-link{
+    padding: 5px;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    transition: 0.4s;
+}
+.referButton:hover,.referButton:hover .item1-link{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.info{
+    text-align: center;
+padding: 10px;
+}
+.tshirtSection,.pantSection,.accessoriesSection{
+    position: absolute;
+    top: 50px;
+    display: flex;
+}
+.pantSection,.accessoriesSection{
+    display: flex;
+    top: 100px;
+    left: 150px;
+}
+.item{
+    display:inline-block;
+    position: relative;
+}
+.first,.second,.third,.fourth,.fifth,.sixth{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.Row1{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    display: block;
+}
+.Row2{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    display: block;
+}
+::-webkit-scrollbar{
+    background-color:black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}
+#pValue,#aValue{
+    display: none;
+}
+#sSection:target ~ #sValue{
+    display: block;
+}
+#pSection:target ~ #pValue{
+    display: block;
+}
+#aSection:target ~ #aValue{
+    display: block;
+}
+#pSection{
+    display: flex;
+}
+.item{
+    display: inline-block;
+}
+.shirt:hover{
+    background-color: rgb(24, 119, 242);
+}
+#topPart{
+    position: absolute;
+    top: -20px;
+    left: 45%      ;
+}
